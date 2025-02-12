@@ -6,7 +6,7 @@
 	<meta name="description" content="Get your uncontested divorce hassle-free! Our online divorce services prepare and file your divorce papers online — no stress, no hidden fees. Start today!">
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20250212153341">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250212170602">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -477,7 +477,7 @@
 							<h3 class="consultation__title title">
 								Get a free consultation!
 							</h3>
-							<form data-popup-message="#form-message" action="files/sendmail/sendmail.php" data-dev method="POST" class="consultation__form form">
+							<form data-popup-message="#form-message" action="files/sendmail/sendmail.php" data-ajax method="POST" class="consultation__form form">
 								<div class="form__block">
 									<label class="form__label">
 										Name <span>*</span>
@@ -616,13 +616,16 @@
 				<div class="contacts__container">
 					<div class="contacts__body">
 						<a href="https://www.google.com/maps/place/70+Little+W+St,+New+York,+NY+10004,+USA/@40.722475,-74.0207846,10271m/data=!3m1!1e3!4m6!3m5!1s0x89c25a11c3c8a9eb:0xf1b43222d7edd58f!8m2!3d40.7069489!4d-74.0169068!16s%2Fg%2F11c3q39cq2!5m1!1e4?hl=en&entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="contacts__map">
-							<img src="img/map.webp" alt="map">
+							<picture>
+								<source srcset="img/map-mob.webp" media="(max-width: 479.98px)">
+								<img src="img/map.webp" alt="map">
+							</picture>
 						</a>
 						<div class="contacts__content">
 							<h3 class="contacts__title title">
 								Get a free consultation!
 							</h3>
-							<form data-popup-message="#form-message" action="files/sendmail/sendmail.php" data-dev method="POST" class="contacts__form form">
+							<form data-popup-message="#form-message" action="files/sendmail/sendmail.php" data-ajax method="POST" class="contacts__form form">
 								<div class="form__block">
 									<label class="form__label">
 										Name <span>*</span>
@@ -716,7 +719,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20250212153341"></script>
+	<script src="js/app.min.js?_v=20250212170602"></script>
 </body>
 
 </html>

@@ -485,7 +485,8 @@ body::after {
 }
 .footer__link {
   font-size: 1.25rem;
-  line-height: 150%
+  line-height: 150%;
+  transition: color .3s
 }
 .footer__bottom {
   padding: 1.5rem 0;
@@ -1610,6 +1611,9 @@ body::after {
   }
   .spollers__title:hover {
     background-color: var(--border-color)
+  }
+  .footer__link:hover {
+    color: var(--primary)
   }
   .price-card:hover {
     border-color: var(--primary);
